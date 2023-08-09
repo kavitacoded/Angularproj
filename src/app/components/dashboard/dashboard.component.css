@@ -1,0 +1,26 @@
+.shop-section{
+    display: flex;
+  
+     justify-content: space-evenly;
+    flex-wrap: wrap; 
+    background-color: aliceblue;
+}
+.box{
+    border: 2px solid red;
+    height:400px;
+    width: 23%;
+    background-color: white;
+    padding: 2px 0px 15px;
+    margin-top: 15px;
+}
+.box-img img{
+    height: 300px;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+}
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
